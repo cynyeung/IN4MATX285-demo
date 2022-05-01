@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <title>California's Favorite Plant Store - The Sill</title>
+        <style>
+            body {
+                font-family: 'Libre Baskerville', serif;
+            }
+            .hero {
+                background-image: url("https://cdn.sanity.io/images/y346iw48/production/1b91f4a0bff63f4e0ee83c8bb7ece808a16045c0-2880x1462.jpg?w=1536&h=780&auto=format");
+                background-size: cover;
+                background-position: left center;
+            }
+            .hero-content {
+                padding: 10rem 0;
+            }
+            h1 {
+                font-size: 3rem;
+            }
+            .section {
+                margin: 5rem 0;
+            }
+            .product {
+                margin-bottom: 1rem;
+                width: 100%;
+            }
+            .product__copy--name {
+                font-size: 1.5rem;
+            }
+            .product__copy--customize {
+                color: #666666;
+            }
+            .product__copy--options {
+                color: #666666;
+                font-size: 0.8rem;
+                text-decoration: none;
+                font-style: italic;
+                text-align: right;
+            }
+            .product__copy--options:hover {
+                color: green;
+            }
+            .text-align-right {
+                text-align: right;
+            }
+            .product__copy--details {
+                display: flex;
+                justify-content: space-between;
+            }
+            .benefits-copy {
+                display: flex;
+                flex-direction: column;
+                align-self: center;
+            }
+            .top-seller {
+                margin-top: 4rem;
+            }
+            .footnote {
+                font-size: 0.8em;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid hero">        
+            <div class="container">
+                <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-5 hero-content">
+                    <h1>California’s Favorite Plant Store</h1>
+                    <p>Potted houseplants delivered to your door.</p>
+                    <button class="btn btn-success">Shop All Plants</button>
+                </div>
+            </div>
+           </div>
+        </div>
+        <div class="container">
+           <div class="row section">
+               <div class="col-sm-12 col-md-6 col-lg-3 mb-sm-5 mb-5">
+                   <h2 class="top-seller">California Top Sellers</h2>
+                   <p>Our Top Selling Plants</p>
+                   <button class="btn btn-success">Shop Live Plants</button>
+               </div>
+               <div class="col-sm-12 col-md-6 col-lg-3 mb-sm-5 mb-5">
+                   <img class="img-fluid product" src="https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_philodendron-birkin_small_upcycled-planter-saucer_stonewash.jpg?v=1651099037&width=400" alt="Philodrendron Birkin in a slate colored pot">
+                   <h3 class="product__copy--name">Philodrendron Birkin</h3>
+                   <p class="product__copy--customize">Choose your planter style & color</p>
+                   <div class="row product__copy--details">
+                       <div class="col-6"><p class="product__copy--price">$28 - $48</p></div>
+                       <div class="col-6 text-align-right"><a class="product__copy--options" href="#">+ more options</a></div>
+                   </div>
+               </div>
+               <div class="col-sm-12 col-md-6 col-lg-3 mb-sm-5 mb-5">
+                   <img class="img-fluid product" src="https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_hoya-heart_variant_mini_hyde_blush.jpg?v=1649256371&width=400" alt="Hoya Heart in a terracotta colored pot">
+                   <h3 class="product__copy--name">Hoya Heart</h3>
+                   <p class="product__copy--customize">Choose your planter style & color</p>
+                   <div class="row product__copy--details">
+                       <div class="col-6"><p class="product__copy--price">$18 - $34</p></div>
+                       <div class="col-6 text-align-right"><a class="product__copy--options" href="#">+ more options</a></div>
+                   </div>
+               </div>
+               <div class="col-sm-12 col-md-6 col-lg-3 mb-sm-5 mb-5">
+                    <img class="img-fluid product" src="https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_monstera_variant_medium_grant_mint_0d014032-0bb0-4dd6-865e-f0f8a31f98c4.jpg?v=1650482391&width=400" alt="Monstera Deliciosa in a fog colored pot">
+                    <h3 class="product__copy--name">Monstera Deliciosa</h3>
+                    <p class="product__copy--customize">Choose your planter style & color</p>
+                    <div class="row product__copy--details">
+                        <div class="col-6"><p class="product__copy--price">$38 - $88</p></div>
+                        <div class="col-6 text-align-right"><a class="product__copy--options" href="#">+ more options</a></div>
+                    </div>
+                </div>
+           </div>
+           <div class="row section">
+               <div class="col-sm-12 col-md-12 col-lg-6">
+                   <img class="img-fluid" src="https://cdn.sanity.io/images/y346iw48/production/56b096b4537486e70cfa86dfb5441b7dd9212d59-1500x1127.jpg?auto=format">
+               </div>
+               <div class="col-sm-12 col-md-12 col-lg-6 ps-lg-5 mt-sm-3 mt-3 benefits-copy">
+                   <h2>Benefits of Houseplants</h2>
+                   <p>
+                       It's true when we say plants make people happy. When you feel a little low, it's amazing how a walk outside can do wonders. When we get in touch with nature, we reduce mental fatigue and stress, while increasing relaxation and self-esteem. Even brief exposure to nature has been shown to have these benefits. Indoor plants provide similar perks too. Not only do they enhance the overall appearance of any interior space, but houseplants have been shown to boost moods, increase creativity and productivity, reduce stress, and eliminate indoor air pollutants. Plants don't just look good, they make us feel good too.
+                    </p>
+                    <button class="btn btn-success">Shop Live Plants</button>
+               </div>
+           </div>
+           <div class="row section">
+               <div class="col-sm-12 col-md-12 col-lg-12">
+                   <p class="footnote">Design and content of page inspired by and credits to <a href="https://www.thesill.com/pages/california-plants-succulents-delivery" target="_blank" alt="Link to The Sill website">https://www.thesill.com/pages/california-plants-succulents-delivery</a></p></div>
+           </div>
+        </div>
+    
+        <!-- Optional JavaScript; choose one of the two! -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      </body>
+</html>
